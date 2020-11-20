@@ -1,0 +1,6 @@
+r
+loadbin build\minimal_arm_template.bin, 0x00
+verifybin build\minimal_arm_template.bin, 0x00
+r
+g
+q
