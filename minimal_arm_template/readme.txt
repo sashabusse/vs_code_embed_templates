@@ -3,8 +3,7 @@ files to modify:
 .vscode
 	c_cpp_properties.json
 	launch.json
-	settings.json
-
+	tasks.json // change model of device
 
 Jlink
 	FlashMCU.jlink

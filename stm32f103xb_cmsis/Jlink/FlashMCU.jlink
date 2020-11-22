@@ -1,0 +1,6 @@
+r
+loadbin build\stm32f103xb_cmsis.bin, 0x00
+verifybin build\stm32f103xb_cmsis.bin, 0x00
+r
+g
+q

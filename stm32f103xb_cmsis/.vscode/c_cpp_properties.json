@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "arm_c_cpp_properties",
+            "compilerPath": "arm-none-eabi-gcc.exe",
+            "includePath": [
+				"D:/dev_ide/embed_dev_tools/gnu_arm_embed_toolchain/9_2020_q2_update/arm-none-eabi/include",
+				"D:/dev_ide/embed_dev_tools/gnu_arm_embed_toolchain/9_2020_q2_update/arm-none-eabi/include/sys/",
+                "D:/dev_ide/embed_dev_tools/gnu_arm_embed_toolchain/9_2020_q2_update/lib/**",
+
+                "${workspaceRoot}/include",
+                "${workspaceRoot}/CMSIS/include/cortex_core",
+                "${workspaceRoot}/CMSIS/include/device"
+            ],
+            "defines": [
+				"STM32F103xB",
+				"M3",
+				"GCC_ARMCM3"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
